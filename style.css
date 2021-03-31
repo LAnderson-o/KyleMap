@@ -1,0 +1,114 @@
+* { 
+    font-family:sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #00334d;
+}
+
+#post-container{
+    margin-top: 50px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#post{
+    margin-bottom: 30px;
+    width: 100%;
+    padding: 15px;
+    background-color: #f1f1f1;
+}
+
+#post:hover{
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    margin-bottom: 25px;
+}
+
+#banner{
+    width:100%;
+    height: 125px;
+    padding: none;
+    display: block;
+    object-fit: cover;
+}
+
+#sidebar {
+    height: 100%;
+    width: 120px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+    transition-duration: .5s;
+    transition-delay: .1s;
+}
+
+#sidebar:hover{
+    width: 180px;
+}
+
+#sidebar a {
+    padding: 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+#sidebar a:hover {
+    color: #f1f1f1;
+}
+
+#search{
+    margin-top: 50px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#search-bar{
+    width:100%;
+}
+
+#search-box{
+    width:93%;
+    padding: 5px;
+}
+
+#submit{
+    width:auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: .5s;
+    transition-delay: .1s;
+    background-color: black;
+    color: white;
+    float: right;
+    border:2px solid black;
+    padding: 5px;
+}
+
+#submit:hover{
+    background-color: white;
+    color:black;
+}
+
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
+
+#upload-container{
+    margin-top: 50px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
